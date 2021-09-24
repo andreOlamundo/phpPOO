@@ -1,0 +1,572 @@
+.buttons { border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-decoration: uppercase;
+  cursor: pointer; background-color: #13aa9a">COMPRAR</button>
+
+  botton-desc-produto
+
+
+  class="botton-produto-desc-int"
+
+  class="title-produto-desc-int"
+
+  a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+  background-color: #13aa9a;
+  text-decoration: underline;
+}
+
+
+.header-logo{
+	display: none;
+}
+
+.botton-produto-desc-int {
+	
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+	text-transform: uppercase;
+  background-color: #13aa9a;
+}
+
+
+.botton-produto-desc-int-ii {
+	
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+	text-transform: uppercase;
+  background-color: #13aa9a;
+}
+
+
+
+/*Botão de direcionamento para lojas
+ */
+.botton-produto-desc-int-ii {
+  display: inline-block;
+  border-radius: 0px;
+  background-color: #13aa9a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.botton-produto-desc-int-ii span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.botton-produto-desc-int-ii span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.botton-produto-desc-int-ii:hover span {
+  padding-right: 15px;
+	color: white;
+}
+
+.botton-produto-desc-int-ii:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.entry-title {	
+	font-size: 30px;
+}
+/*Descrição do produto .woocommerce-product-details__short-description p {
+	font-weight: normal;
+}*/
+
+.page-title {
+	display: none;
+}
+
+.widget-title {
+	border: none;
+}
+
+
+.gallery-caption {
+border: none;	
+	
+}
+
+.entry-header {
+	
+	height: 300px;
+	
+}
+
+.product-title {
+	 font-style: normal;
+}
+
+.product_meta {
+	display: none;
+}
+
+.credit {
+display: none;	
+}
+
+
+.read-more a
+{
+	  display: inline-block;
+    padding: 0 10px;
+    border: 1px solid;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+    cursor: pointer;
+
+}
+
+#page-footer {	
+padding: 0px;
+margin: 0px;
+background: url(http://teste.sanrio.com.br/wp-content/uploads/2020/10/HOTSITE_VOLTAASAULAS_FOOTER_IMG_7800-1200.png) no-repeat center center, url(http://teste.sanrio.com.br/wp-content/uploads/2020/10/HOTSITE_VOLTAASAULAS_FOOTER_BKG_5187-1200.png) no-repeat center bottom fixed;
+background-size: contain;
+}
+
+.footer-widgets {
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  padding: 40px 0px 0px;
+  overflow: hidden;
+}
+
+.footer-copyright {
+	display: none;
+}
+
+.copyright-info {
+		display: none;
+}
+
+#custom_html-3 {
+	width: 100%;
+
+}
+
+.widgetfooterHK {
+font-size: 17px;
+
+}
+
+.widgetfooterSR {
+	font-size: 17px;
+	margin-left: 250px;	
+}
+
+#widgetfooterIcon {
+	margin-left: 150px;
+}
+
+#social-icon-widget-youtubesr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 17px;
+	margin: 10px;
+}
+
+#social-icon-widget-instagransr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 17px;
+	margin: 10px;
+}
+
+#social-icon-widget-facesr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 17px;
+	margin: 10px;
+}
+
+#social-icon-widget-youtubehk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 17px;
+	margin: 10px;
+}
+
+#social-icon-widget-instagranhk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 17px;
+	margin: 10px;
+}
+
+#social-icon-widget-facehk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 17px;
+	margin: 10px;
+}
+
+.textwidget {
+	color: white;
+	text-align: center;	
+			
+}
+
+
+@media only screen and (max-width: 1920px) {	
+	.entry-header {
+	
+	height: 700px;
+	
+}
+}
+
+@media only screen and (max-width: 1680px) {	
+	.entry-header {
+	
+	height: 500px;
+	
+}
+}
+
+@media only screen and (max-width: 1600px) {	
+	.entry-header {
+	
+	height: 500px;
+	
+}
+}
+
+@media only screen and (max-width: 1440px) {	
+	.entry-header {
+	
+	height: 500px;
+	
+}
+}
+
+@media only screen and (max-width: 1366px) {	
+	.entry-header {
+	
+	height: 400px;
+	
+}
+}
+
+@media only screen and (max-width: 1024px) {	
+	
+	
+.entry-title {	
+	font-size: 22px;
+}
+	
+.footer-widgets {
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  padding: 20px 0px 0px;
+  overflow: hidden;
+}
+	
+	.titlefooter {
+	font-size: 19px;		
+	}
+	
+	.widgetfooterHK {
+	font-size: 12px;
+}
+	
+	.widgetfooterSR {
+	margin-left: 70px;
+	font-size: 12px;
+}
+
+#widgetfooterIcon {
+	margin: 10x;
+	margin-left: 20px;
+}
+	
+#social-icon-widget-youtubesr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-instagransr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-facesr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-youtubehk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-instagranhk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-facehk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+	
+#page-footer {	
+padding: 0px;
+margin: 0px;
+background: url(http://teste.sanrio.com.br/wp-content/uploads/2020/10/HOTSITE_VOLTAASAULAS_FOOTER_IMG_8320-1280.png) no-repeat center center, url(http://teste.sanrio.com.br/wp-content/uploads/2020/10/HOTSITE_VOLTAASAULAS_FOOTER_BKG_5533-1280.png) no-repeat center bottom fixed;	
+	
+background-size: contain;
+}
+	
+}
+
+@media only screen and (max-width: 480px) {	
+	
+	
+.entry-title {	
+	font-size: 25px;
+}
+	
+[data-layout*="list"] .post-title {
+  font-size: 25px;
+  line-height: 28px;
+}
+
+	.woocommerce-product-details__short-description p {
+font-size: 12px;
+}
+	
+.footer-widgets {
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  padding: 25px 0px 0px;
+  overflow: hidden;
+}
+	
+	.titlefooter {
+	font-size: 15px;		
+	}
+	
+	.widgetfooterHK {
+	font-size: 12px;
+}
+	
+	.widgetfooterSR {
+	margin-left: 70px;
+	font-size: 12px;
+}
+
+#widgetfooterIcon {
+	margin: 0px;
+	margin-left: 20px;
+}
+	
+#social-icon-widget-youtubesr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-instagransr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-facesr {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-youtubehk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-instagranhk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-facehk {
+	padding: 15px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+	
+#page-footer {	
+padding: 0px;
+margin: 0px;
+background: url(http://teste.sanrio.com.br/wp-content/uploads/2020/10/VOLTAASAULAS_FOOTER_01.png) no-repeat center center;
+background-size: cover;
+}
+	
+	
+}
+
+@media only screen and (max-width: 360px) {	
+	
+		
+	.entry-title {	
+	font-size: 12px;
+}	
+
+.woocommerce-product-details__short-description p {
+font-size: 10px;
+}
+	
+.footer-widgets {
+  border-bottom-style: none;
+  border-bottom-width: 1px;
+  padding: 30px 0px 0px;
+  overflow: hidden;
+}
+		
+	.widgetfooterHK {
+	font-size: 10px;
+}
+	
+	.widgetfooterSR {
+	margin-left: 70px;
+	font-size: 10px;
+}
+
+#widgetfooterIcon {
+	margin: 0px;
+	margin-left: 15px;
+}
+	
+#social-icon-widget-youtubesr {
+	padding: 10px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-instagransr {
+	padding: 10px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-facesr {
+	padding: 10px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-youtubehk {
+	padding: 10px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-instagranhk {
+	padding: 10px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+
+#social-icon-widget-facehk {
+	padding: 10px;
+	background-color: #eaeaea;
+	font-size: 10px;
+	margin: 0px;
+}
+	
+#page-footer {	
+padding: 0px;
+margin: 0px;
+background: url(http://teste.sanrio.com.br/wp-content/uploads/2020/10/VOLTAASAULAS_FOOTER_01.png) no-repeat center center;
+background-size: cover;
+}
+	
+	
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 670px) {	
+	.entry-header {
+	
+	height: 400px;
+	
+}
+
+a::before {
+	content: "Clique aqui->";
+	color: blue;
+  }
