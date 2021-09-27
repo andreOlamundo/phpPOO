@@ -9,7 +9,7 @@
 <body>
     <pre>
     <?php
-    require_once '../Controller/ControleRemoto.php';
+    require_once '../Controller/classControleRemoto.php';
     $c = new ControleRemoto();
     $c->ligar();
     $c->maisVolume();

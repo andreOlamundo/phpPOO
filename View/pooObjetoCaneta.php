@@ -13,8 +13,6 @@
      $c1 = new Caneta;
      $c1->modelo = "Big";
      $c1->cor = "Verde";
-
-
     //$c1 = new Caneta;
     //$c1->modelo = "Big";
     //$c1->cor = "Verde";

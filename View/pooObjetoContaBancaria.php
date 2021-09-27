@@ -9,7 +9,7 @@
 <body>
     <pre>
     <?php
-    require_once '../Controller/ContaBanco.php';
+    require_once '../Controller/classContaBanco.php';
    
     $p1 = new ContaBanco();   //Joao
     $p2 = new ContaBanco();   //Cleiton
