@@ -15,7 +15,7 @@
     $c1->setModelo("BIC");
     $c1->setCor("Verde");
 
-    echo "Minha caneta {$c1->getModelo()} - {$c1->getCor()}"
+    echo "Minha caneta {$c1->getModelo()} - {$c1->getCor()}";
     
     ?>
 </pre>
