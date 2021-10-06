@@ -1,0 +1,23 @@
+{
+    "version": "0.1.0",
+    "command": "Chrome",    
+    "windows": {
+        "command": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    },
+    "args": [
+        "${file}"
+    ],
+    "tasks": [
+        {
+            "label": "Chrome",
+            "args": [
+                "${file}"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
